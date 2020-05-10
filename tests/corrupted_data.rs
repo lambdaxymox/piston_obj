@@ -1,8 +1,8 @@
 extern crate proptest;
-extern crate wavefront_obj;
+extern crate piston_obj;
 
 use proptest::prelude::*;
-use wavefront_obj::obj;
+use piston_obj::obj;
 
 proptest! {
   #[test]
